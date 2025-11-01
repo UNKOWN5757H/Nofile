@@ -1,32 +1,31 @@
-# Python
+# --- Python ---
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-venv/
 
-# Pyrogram session file
-*.session
-*.session-journal
-
-# Environment
-.env
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Virtual environments
+# --- Virtual Environments ---
 venv/
 env/
 
-# Logs
+# --- Pyrogram Session Files ---
+*.session
+*.session-journal
+
+# --- Environment Variables ---
+.env
+
+# --- Logs ---
 *.log
 
-# IDE settings
+# --- IDE / Editor Settings ---
 .vscode/
 .idea/
 
-# OS files
+# --- OS Files ---
 .DS_Store
 Thumbs.db
+
+# --- Others ---
+*.bak
+*.swp
