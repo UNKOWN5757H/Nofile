@@ -4,8 +4,29 @@ __pycache__/
 *.pyo
 *.pyd
 venv/
-.env
 
 # Pyrogram session file
 *.session
 *.session-journal
+
+# Environment
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
