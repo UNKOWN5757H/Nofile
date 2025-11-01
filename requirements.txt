@@ -3,3 +3,5 @@ tgcrypto
 pymongo[srv]
 python-dotenv
 flask
+dnspython
+requests
